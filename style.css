@@ -1,0 +1,275 @@
+body, html{
+	margin: 0;
+	overflow-x:hidden; 
+	font-family: Lato;
+	scroll-behavior: smooth;
+}
+
+.container{
+
+}
+
+.section1{
+	display: flex;
+	height: 100vh;
+}
+
+.background{
+	width: 40vw;
+	background: url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.black{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+a{
+	text-decoration: none;
+}
+
+.white{
+	width: 62vw;
+	position: absolute;
+	height: 100vh;
+	background: #fff;
+	right: 0;
+	/*border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;*/
+	box-shadow: -10px 5px 20px 0 rgba(0,0,0,0.05);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.align{
+	padding: 20px;
+	padding-right: 80px;
+	display: flex;
+	text-align: right;
+	flex-direction: column;
+	letter-spacing: 2px;
+}
+
+.small{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: -20px;
+}
+
+.big{
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.smalltext{
+	margin-top: 20px;
+	text-align: justify;
+	margin-left: 120px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.color{
+	color: #0FBFE2;
+	font-weight: 600;
+	/*border-bottom: 1px solid #ED6A5E;*/
+}
+
+.section2{
+	padding: 6vh 0; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.b2{
+	font-size: 35px;
+}
+.s2{
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.boxes{
+	width: 80vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: -50px;
+}
+
+.box{
+	width: 530px;
+	height: 490px;
+	padding-bottom: 80px;
+	box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.img{
+	width: 100%;
+	height: 210px;
+	background: url("Accident AI.png");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+.img1{
+	width: 100%;
+	height: 210px;
+	background: url("Lingz.png");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+.img2{
+	width: 100%;
+	height: 210px;
+	background: url("Abridge.jpg");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+.img3{
+	width: 100%;
+	height: 210px;
+	background: url("Spark.png");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+.img4{
+	width: 100%;
+	height: 210px;
+	background: url("rescore.jpg");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+.img5{
+	width: 100%;
+	height: 210px;
+	background: url("Golden Hour.png");
+	background-size: cover;
+	background-position: center; 
+	box-shadow: 0px 5px 20px 0 rgba(0,0,0,0.08);
+	position: absolute;
+	top: 0;
+}
+
+
+.btext{
+	margin-top: 270px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h{
+	font-weight: 900;
+	margin: 20px 0 0px 20px;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.sh{
+	margin: 10px 20px;
+	font-size: 14.8px;
+	text-align: justify;
+}
+
+.learn{
+	width: 150px;
+	text-align: center;
+	font-size: 18px;
+	color: #0FBFE2;
+	padding: 10px 5px;
+	font-weight: 600;
+	border-radius: 100px;
+}
+a {
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	color: #0FBFE2;
+	padding: 10px 5px;
+	font-weight: 600;
+	border-radius: 100px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+	.background{
+		display: none;
+	}
+
+	.white{
+		left: 0;
+		width: 100vw;
+	}
+
+	.small{
+		text-align: center;
+	}
+
+	.align{
+		text-align: left;
+		padding-left: 0px;
+		padding-right: 0;
+	}
+
+	.big{
+		font-size: 60px;
+		text-align: center;
+	}
+
+	.smalltext{
+		margin-left: 30px;
+		margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.big{
+		font-size: 50px;
+	}
+
+	.sh{
+		font-size: 13px;
+	}
+
+	.box{
+		height: 600px;
+	}
+}
+.small {
+	font-family: Segoe UI;
+}
+.big {
+	font-family: Segoe UI;
+}
