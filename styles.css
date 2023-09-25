@@ -4,7 +4,10 @@
 .display-4 {
     font-size: 2.25rem;
     font-weight: 625;
-    margin: 15px 15px 15px 15px;
+    margin-left: 7px;
+}
+#touch {
+    margin: 15px 15px 15px 30px;
 }
 .lead {
     font-size: 1.2rem;
